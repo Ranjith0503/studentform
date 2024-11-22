@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Form</h1>
+    <div class="container">
+        <form>
+            <table border="1">
+                <tr><td><b>Name</b></td><td><input type="text" id="name" placeholder="Enteryour name" required></td></tr>
+                <tr><td><b>Age</b></td><td><input type="text" id="age" placeholder="Enteryour age" required></td></tr>
+                <tr>
+                    <td><b>Gender</b></td>
+                    <td>
+                        <input type="radio" id="male" name="Gender" value="Male">Male
+                        <input type="radio" id="female" name="Gender" value="Female">Female
+                    </td>
+                </tr>
+                <tr><td><b>Course</b></td><td><input type="text" placeholder="Enteryour course" id="course"></td></tr>
+                <tr><td><b>E-mail</b></td><td><input type="email" id="email" placeholder="Enter your email"></td></tr>
+            </table>
+        </form>
+    </div>
+    <button id="entry">Submit</button>
+    <div class="outputbox">
+        <table border="1" id="display">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Course</th>
+                <th>Email</th>
+                <th>Action</th>              
+            </tr>
+        </table>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
